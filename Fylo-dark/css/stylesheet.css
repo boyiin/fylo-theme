@@ -1,0 +1,274 @@
+/* Apply box-sizing: border-box; to all the elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  .menu-icon {
+    color: white;
+    float: right; 
+    font-size: 25px; 
+    padding: 21px 0; 
+    /* Change the display property to none */
+    display: none; 
+  } 
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  .wrap{
+    background-color: hsl(218, 28%, 13%);
+  }
+  
+  a {
+    padding: 5px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+  }
+  
+  .clear {
+      clear: left;
+  }
+
+  .container {
+    /* Change the width to 100% */
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 0px;  
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+    color: white;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+    margin-right: -25px;
+    /* background-color: #333; */
+    /* overflow: hidden; */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .header-right a {
+    float: left;
+    line-height: 65px;
+    padding: 0 25px;
+    /* display: block; */
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.5s;
+  }
+  
+  /* Change the color of links on hover */
+  .header-right a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .header-right a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .header-right .menu-icon {
+    display: none;
+  }
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-top: 0px;
+    height: auto;
+  }
+  .container-heading{
+    height: 500px;
+    width: 100%;
+    clear: both;
+  }
+  /* .header-left{
+    float: left;
+    height: 500px;
+    width: 30%;
+  } */
+  
+  .heading-right {
+    color: #5f5d60;
+    float: right;
+    width: 40%;
+    height: 500px;
+
+  }
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 50%;
+    padding-left: 100px;
+    color: white;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 50%;
+    padding: 20px;
+    color: white;
+  }
+  .lesson-icon1{
+    flex: 40%;
+    padding: 20px;
+    height: 200px;
+    color: white;
+  }
+  .lesson-icon2{
+    flex: 40%;
+    padding: 20px;
+    height: 200px;
+    color: white;
+  }  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  
+  .item {
+    flex: 23%;
+    height: 150px;
+    background-color: hsl(216, 53%, 10%);
+    margin: 10px;
+    color: ghostwhite;
+    font-size: 15px;   
+  }
+
+  .article1{
+    flex: 20%;
+  }
+  .article2{
+    color: white;
+    flex: 30%;
+    padding: 20px;
+    height: 200px;
+    background-color: hsl(216, 53%, 10%);
+  }
+  .first{
+    flex:20%;
+  }
+  .second{
+    flex: 20%;
+    color: white;
+  }
+  .third{
+    flex: 20%;
+    color: white;
+  }
+  .fourth{
+    flex: 20%;
+    color: white;
+  }
+  .social{
+    flex: 20%;
+  }
+
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: hsl(216, 53%, 9%);
+  }
